@@ -3385,6 +3385,7 @@ class CfgExileCustomCode
 
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
+	ExileClient_object_player_initialize = "customcode\client\ExileClient_object_player_initialize.sqf";
 };
 class CfgExileEnvironment
 {

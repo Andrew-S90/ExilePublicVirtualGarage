@@ -4,12 +4,11 @@
 
 // Taken away for now
 //#include "initServer.sqf"
-PublicVirtualGarageLocation = [14887,3397,0]; //location for virtual garage
-PublicVirtualGarageDistance = 150; //distance from location player can be
-player addAction ["<t color='#0066cc'>Store in public garage!</t>", {["VGPublic_Store", [netId (vehicle player)]] call ExileClient_system_network_send;}, [], 1.5, false, false, "", "_vehicle = (vehicle player); !ExileClientPlayerIsInCombat and {_vehicle != player and {speed (_vehicle) < 1} and {driver _vehicle == player} and {(position player distance PublicVirtualGarageLocation) < PublicVirtualGarageDistance}}"]; 
-player addAction ["<t color='#0066cc'>Load from public garage!</t>", {["VGPublic_Load", [netId (vehicle player)]] call ExileClient_system_network_send;}, [], 1.5, false, false, "", "_vehicle = (vehicle player); !ExileClientPlayerIsInCombat and {_vehicle == player and {(position player distance PublicVirtualGarageLocation) < PublicVirtualGarageDistance}}"]; 
 
 if (!hasInterface || isServer) exitWith {};
+
+PublicVirtualGarageLocation = [14602,16890,0];
+PublicVirtualGarageDistance = 15;
 
 ///////////////////////////////////////////////////////////////////////////
 // Hardware Trader
