@@ -3,7 +3,7 @@ Basic 1 Vehicle VG for anyone
 
 This is based on location and can be used in an airfield or non safezone location. You are free to adapt it to be trader based or a scroll wheel action on a trader. It is pretty simple.
 
-Showcase video: 
+Showcase video: https://www.youtube.com/watch?v=hxUIN_YniDg
 
 This was developed on a test server with EXTDB2, no infistar and no battleye.
 
